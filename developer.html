@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="TarTarot geliştirici bilgileri, uygulama yaklaşımı ve iletişim sayfası."
+    >
+
+    <meta name="theme-color" content="#03110d">
+
+    <title>Geliştirici — TarTarot</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav
+            class="navbar"
+            aria-label="Ana navigasyon"
+        >
+            <a
+                class="brand"
+                href="index.html"
+                aria-label="TarTarot ana sayfası"
+            >
+                <span
+                    class="brand-mark"
+                    aria-hidden="true"
+                >
+                    ✦
+                </span>
+
+                <span>TarTarot</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html">
+                    Ana Sayfa
+                </a>
+
+                <a href="support.html">
+                    Destek
+                </a>
+
+                <a href="privacy.html">
+                    Gizlilik
+                </a>
+
+                <a href="terms.html">
+                    Koşullar
+                </a>
+
+                <a
+                    class="active"
+                    href="developer.html"
+                >
+                    Geliştirici
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-heading">
+            <span class="eyebrow">
+                Uygulamanın Arkasındaki Yaklaşım
+            </span>
+
+            <h1>
+                TarTarot Geliştiricisi
+            </h1>
+
+            <p class="lead">
+                TarTarot; tarot kartlarının sembolik dünyasını modern,
+                sade ve özenli bir mobil deneyimle sunmak amacıyla
+                geliştirilmiştir.
+            </p>
+        </section>
+
+        <section class="content">
+
+            <div class="panel">
+
+                <div class="grid grid-2">
+
+                    <div>
+                        <span class="eyebrow">
+                            TarTarot Hakkında
+                        </span>
+
+                        <h2>
+                            Geleneksel sembolizm, modern deneyim
+                        </h2>
+
+                        <p>
+                            TarTarot, kullanıcıların tarot kartlarını
+                            keşfetmelerine, farklı açılımlar oluşturmalarına
+                            ve kartların düz veya ters anlamlarını
+                            incelemelerine yardımcı olmak için
+                            geliştirilmiştir.
+                        </p>
+
+                        <p>
+                            Uygulamanın görsel dili; mistik tarot
+                            sembollerini, zarif altın detayları ve koyu
+                            zümrüt tonlarını modern bir arayüz yaklaşımıyla
+                            birleştirir.
+                        </p>
+
+                        <p>
+                            Amaç, kullanıcıya yalnızca kart anlamlarını
+                            sunmak değil; aynı zamanda sakin, anlaşılır ve
+                            görsel açıdan güçlü bir tarot deneyimi
+                            oluşturmaktır.
+                        </p>
+                    </div>
+
+                    <div class="contact-box">
+                        <img
+                            src="images/tarot_card_back.png"
+                            alt="TarTarot kart arka yüzü"
+                            style="
+                                width: min(260px, 78%);
+                                margin: 0 auto;
+                                border-radius: 20px;
+                                border: 1px solid var(--border-medium);
+                                box-shadow: 0 30px 65px rgba(0, 0, 0, 0.42);
+                            "
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="grid grid-3">
+
+                <article class="feature-card">
+                    <div
+                        class="feature-icon"
+                        aria-hidden="true"
+                    >
+                        ✦
+                    </div>
+
+                    <h3>
+                        Özgün Tasarım
+                    </h3>
+
+                    <p>
+                        Kart görselleri, arayüz ve uygulama deneyimi
+                        TarTarot'un kendine özgü görsel kimliğine uygun
+                        biçimde hazırlanmıştır.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div
+                        class="feature-icon"
+                        aria-hidden="true"
+                    >
+                        ☾
+                    </div>
+
+                    <h3>
+                        Kullanıcı Odaklı
+                    </h3>
+
+                    <p>
+                        Uygulama, tarot bilgisi olmayan kullanıcıların da
+                        kartları kolayca keşfedebilmesi için sade ve
+                        anlaşılır biçimde tasarlanmıştır.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div
+                        class="feature-icon"
+                        aria-hidden="true"
+                    >
+                        ◈
+                    </div>
+
+                    <h3>
+                        Sürekli Gelişim
+                    </h3>
+
+                    <p>
+                        TarTarot; kullanıcı geri bildirimleri, teknik
+                        iyileştirmeler ve yeni özelliklerle zaman içinde
+                        geliştirilmeye devam eder.
+                    </p>
+                </article>
+
+            </div>
+
+            <div class="panel">
+
+                <span class="eyebrow">
+                    Geliştirme İlkeleri
+                </span>
+
+                <h2>
+                    TarTarot nasıl geliştiriliyor?
+                </h2>
+
+                <div
+                    class="grid grid-2"
+                    style="margin-top: 30px;"
+                >
+
+                    <article class="glass-card">
+                        <h3>
+                            Gizliliğe Saygı
+                        </h3>
+
+                        <p>
+                            Kullanıcı verilerinin gereksiz biçimde
+                            toplanmaması ve veri kullanımı konusunda açık
+                            bilgilendirme yapılması temel geliştirme
+                            ilkelerindendir.
+                        </p>
+                    </article>
+
+                    <article class="glass-card">
+                        <h3>
+                            Erişilebilir Deneyim
+                        </h3>
+
+                        <p>
+                            Yazıların okunabilirliği, açık navigasyon,
+                            farklı ekran boyutlarına uyum ve anlaşılır
+                            kullanıcı akışı öncelikli tutulur.
+                        </p>
+                    </article>
+
+                    <article class="glass-card">
+                        <h3>
+                            Görsel Tutarlılık
+                        </h3>
+
+                        <p>
+                            Kart tasarımlarından premium ekranlara kadar
+                            uygulamanın tüm bölümlerinde tutarlı bir görsel
+                            dil kullanılmasına önem verilir.
+                        </p>
+                    </article>
+
+                    <article class="glass-card">
+                        <h3>
+                            Güvenilir Uygulama Deneyimi
+                        </h3>
+
+                        <p>
+                            Satın alma, abonelik geri yükleme ve uygulama
+                            işlevlerinin Apple platform kurallarıyla uyumlu
+                            çalışması hedeflenir.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+            <div class="panel">
+
+                <div class="grid grid-2">
+
+                    <div>
+                        <span class="eyebrow">
+                            İletişim
+                        </span>
+
+                        <h2>
+                            Geliştiriciyle iletişime geçin
+                        </h2>
+
+                        <p>
+                            Uygulama hakkındaki önerileriniz, teknik
+                            sorunlarınız, gizlilik talepleriniz veya diğer
+                            sorularınız için e-posta gönderebilirsiniz.
+                        </p>
+
+                        <a
+                            class="contact-email"
+                            href="mailto:saax.444@gmail.com?subject=TarTarot%20İletişim"
+                        >
+                            saax.444@gmail.com
+                        </a>
+
+                        <p style="margin-top: 22px;">
+                            Teknik destek talepleri için cihaz modelinizi,
+                            iOS sürümünüzü ve uygulama sürümünü mesajınıza
+                            eklemeniz önerilir.
+                        </p>
+                    </div>
+
+                    <div class="contact-box">
+                        <img
+                            src="images/major_16_yikilan_kule.png"
+                            alt="Yıkılan Kule tarot kartı"
+                            style="
+                                width: min(220px, 70%);
+                                margin: 0 auto;
+                                border-radius: 18px;
+                                border: 1px solid var(--border-medium);
+                                box-shadow: 0 24px 55px rgba(0, 0, 0, 0.38);
+                            "
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="panel">
+
+                <span class="eyebrow">
+                    Faydalı Bağlantılar
+                </span>
+
+                <div
+                    class="grid grid-3"
+                    style="margin-top: 28px;"
+                >
+
+                    <article class="glass-card">
+                        <h3>
+                            Destek
+                        </h3>
+
+                        <p>
+                            Uygulama kullanımı, premium abonelik ve teknik
+                            sorunlar için destek sayfasını ziyaret edin.
+                        </p>
+
+                        <a href="support.html">
+                            Destek Sayfasına Git
+                        </a>
+                    </article>
+
+                    <article class="glass-card">
+                        <h3>
+                            Gizlilik
+                        </h3>
+
+                        <p>
+                            Veri kullanımı ve kullanıcı hakları hakkında
+                            gizlilik politikasını inceleyin.
+                        </p>
+
+                        <a href="privacy.html">
+                            Gizlilik Politikasına Git
+                        </a>
+                    </article>
+
+                    <article class="glass-card">
+                        <h3>
+                            Kullanım Koşulları
+                        </h3>
+
+                        <p>
+                            Uygulamanın kullanımı ve premium abonelik
+                            şartları hakkında bilgi alın.
+                        </p>
+
+                        <a href="terms.html">
+                            Kullanım Koşullarına Git
+                        </a>
+                    </article>
+
+                </div>
+
+            </div>
+
+            <div class="panel contact-box">
+
+                <img
+                    src="images/cups_04_kupa_dortlusu.png"
+                    alt="Kupa Dörtlüsü tarot kartı"
+                    style="
+                        width: min(210px, 68%);
+                        margin: 0 auto 30px;
+                        border-radius: 18px;
+                        border: 1px solid var(--border-medium);
+                        box-shadow: 0 24px 55px rgba(0, 0, 0, 0.38);
+                    "
+                >
+
+                <h2>
+                    TarTarot'u keşfetmeye devam edin
+                </h2>
+
+                <p>
+                    Uygulamanın özelliklerini, kartlarını ve görsel
+                    dünyasını ana sayfadan inceleyebilirsiniz.
+                </p>
+
+                <div
+                    class="button-row"
+                    style="justify-content: center;"
+                >
+                    <a
+                        class="button"
+                        href="index.html"
+                    >
+                        Ana Sayfaya Git
+                    </a>
+
+                    <a
+                        class="button button-secondary"
+                        href="mailto:saax.444@gmail.com?subject=TarTarot%20İletişim"
+                    >
+                        E-posta Gönder
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+
+        <div class="footer-links">
+            <a href="index.html">
+                Ana Sayfa
+            </a>
+
+            <a href="support.html">
+                Destek
+            </a>
+
+            <a href="privacy.html">
+                Gizlilik Politikası
+            </a>
+
+            <a href="terms.html">
+                Kullanım Koşulları
+            </a>
+
+            <a href="developer.html">
+                Geliştirici
+            </a>
+        </div>
+
+        <p>
+            © 2026 TarTarot. Tüm hakları saklıdır.
+        </p>
+
+        <p>
+            Tarot yorumları kişisel farkındalık ve eğlence amacıyla
+            sunulur; profesyonel danışmanlık yerine geçmez.
+        </p>
+
+    </footer>
+
+</body>
+</html>
